@@ -36,3 +36,7 @@ header {margin: 4rem;}
 
 img {  width: 30rem;
 }
+
+.large-image {
+  width: 100%;
+}

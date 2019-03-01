@@ -12,7 +12,7 @@ class PhotoDetail extends Component {
             <h4>{CategoryData.photos[PhotoIndex].title}</h4>
             {/* <p>{ThingsLike.pandas.description}</p> */}
             <Link to={CategoryData.photos[PhotoIndex].sourceURL}>
-            <img src={CategoryData.photos[PhotoIndex].imageURL}/>
+            <img className= "large-image" src={CategoryData.photos[PhotoIndex].imageURL}/>
             </Link>
             </>
         );
