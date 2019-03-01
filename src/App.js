@@ -10,9 +10,13 @@ class App extends Component {
     return (
       <Router>
         <>
-        <header><h1>Things I Like</h1>
-        <h2>A Photo Gallery by Jason L Perry</h2>
-        </header>
+        <main>
+          <header>
+            <h1>Things I Like</h1>
+            <h2>A Photo gallery by Jason Perry</h2>
+          </header>
+        </main>
+        <section>🏡Home</section>
         <switch>
         <Route exact path="/" component={CategoryList} />
         <Route exact path="/:category" component={PhotoList} />

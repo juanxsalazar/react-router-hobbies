@@ -9,7 +9,7 @@ class CategoryList extends Component {
      {Object.keys(ThingsLike).map((category) => {
        return (
          <div className="thumbimg">
-         <Link to={`/${category}`}>{ThingsLike[category].title}</Link>
+         <Link to={`/${category}`}><h1>{ThingsLike[category].title}</h1></Link>
          <p>{ThingsLike[category].description}</p>
          <Link to={`/${category}`}>
          <img src={ThingsLike[category].photos[0].imageURL} />

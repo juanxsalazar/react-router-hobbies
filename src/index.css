@@ -24,6 +24,10 @@ a {
 
 header {margin: 4rem;}
 
+section {
+  margin: 3rem;
+}
+
 .thumbimg {
   border-style: solid;
   border-color: #DDDD;
